@@ -2,7 +2,17 @@ fn main() {
     println!("Hello nainasweetheart");
     let ans: u32 = sum(4, 5);
     println!("{}", ans);
-    println!("{}", is_even(33))
+    println!("{}", is_even(33));
+    let name = "nainasweetheart"; // when you know name is immutable
+    println!("{}", name);
+
+    //second way
+
+    let gf: String = String::from("Hazel");
+    println!("my Ex girlfriend was : {}", gf);
+
+    let arr: [i32; 5] = [1, 2, 3, 4, 5];
+    println!("{:?}", arr.len());
 }
 
 fn sum(a: u32, b: u32) -> u32 {
@@ -14,3 +24,5 @@ fn sum(a: u32, b: u32) -> u32 {
 fn is_even(a: u32) -> bool {
     return a % 2 == 0;
 }
+
+// let name = naina --> in case of js  in case of string there are two ways
