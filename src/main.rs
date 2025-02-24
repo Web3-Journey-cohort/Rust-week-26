@@ -32,8 +32,14 @@
 
 // loops in rust
 
+// fn main() {
+//     for i in 0..100 {
+//         println!("{}", i);
+//     }
+// }
+
 fn main() {
-    for i in 0..100 {
-        println!("{}", i);
-    }
+    let mut x = 25;
+    x = 23;
+    println!("{}", x)
 }
