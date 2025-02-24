@@ -38,8 +38,14 @@
 //     }
 // }
 
+// fn main() {
+//     let mut x = 25;
+//     x = 23;
+//     println!("{}", x)
+// }
+
 fn main() {
-    let mut x = 25;
-    x = 23;
-    println!("{}", x)
+    let mut name: String = String::from("subh");
+    name.push_str(" naina");
+    println!("{}", name)
 }
