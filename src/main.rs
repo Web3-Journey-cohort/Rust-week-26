@@ -13,6 +13,9 @@ fn main() {
 
     let arr: [i32; 5] = [1, 2, 3, 4, 5];
     println!("{:?}", arr.len());
+
+    let vector = vec![1, 2, 3];
+    println!("{:?}", vector);
 }
 
 fn sum(a: u32, b: u32) -> u32 {
